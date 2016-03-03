@@ -1,0 +1,59 @@
+
+/*TODO nest to modulate*/
+
+.just-padding {
+    padding: 15px;
+    max-width: 700px;
+}
+
+.list-group.list-group-root {
+    padding: 0;
+    overflow: hidden;
+}
+
+.list-group.list-group-root .list-group {
+    margin-bottom: 0;
+}
+
+.list-group.list-group-root .list-group-item {
+    border-radius: 0;
+    border-width: 1px 0 0 0;
+}
+
+.list-group.list-group-root > .list-group-item:first-child {
+    border-top-width: 0;
+}
+
+.well {
+    border-radius: 0;
+    background-image: none;
+    background-color: #F9F9F9;
+}
+
+.list-group > .list-item > .list-group > .list-item > .list-group {
+    background-color: #F3F3F3;
+}
+
+.list-group > .list-item > .list-group > .list-item > .list-group > .list-item > .list-group {
+    background-color: #ECECEC;
+}
+
+.list-group-item {
+    border: none;
+    background-color: transparent;
+}
+a.list-group-item:hover  {
+    background-color: transparent !important;
+}
+a.list-group-item:focus {
+    background-color: transparent;
+}
+
+[data-level='2'], [data-level='3'], [data-level='4'], [data-level='5'] {
+    padding-left: 30px;
+}
+
+.list-item.bottom {
+    padding-left: 53px;
+}
+
